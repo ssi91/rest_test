@@ -11,6 +11,7 @@
 class Request
 {
 private:
+	//TODO make cookie and headers object like hash-map
 	std::string headersString;
 	std::string requestBodyString;
 	std::string cookieString;
